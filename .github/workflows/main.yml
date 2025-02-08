@@ -2,7 +2,8 @@ name: React CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ] # Trigger on pushes to main branch
+    branches:
+      main # Trigger on pushes to main branch
 
 jobs:
   build-and-test:
